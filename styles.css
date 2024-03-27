@@ -1,0 +1,149 @@
+header {
+    background-color: #25193f;
+    border-bottom: 3px solid #fcffff;
+    position: sticky;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+header nav {
+    width: 70%;
+}
+
+header li {
+    padding-left: 3%;
+    padding-right: 3%;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+}
+
+.name a:hover {
+        border-color: #f1ff5c;
+        color: white;
+        box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+        transform: translateY(-0.25em);
+    }
+
+.name {
+    font-family: 'Stalinist One', cursive;
+    font-size: 1.5rem;
+    color: #e64b49;
+}
+
+.name a {
+    color: #e64b49;
+}
+
+.name:visited {
+    color: #e64b49;
+}
+
+#headlinks {
+    font-family: 'Permanent Marker', cursive;
+    color: #f6e712;
+    font-size: 1.2rem;
+    text-align: right;
+}
+
+#headlinks a {
+    color: #f6e712;
+}
+
+#headlinks a:hover {
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+}
+
+html {
+    background: url("https://i.imgur.com/msyq95X.jpg") no-repeat center center fixed;
+    background-position: top 52.4px;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-shadow: 2px 2px 2px #fefefe;
+    color: #2b2660;
+    text-decoration: underline;
+    font-size: 3em;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+footer {
+    background-color: #25193f;
+    border-top: 3px solid #fcffff;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 7%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 0.8rem;
+}
+
+footer li {
+    padding left: 3%;
+    padding-right: 3%;
+}
+
+footer a {
+    color: #7ecdec;
+}
+
+.bio p {
+    font-family: 'Nerko One', cursive;
+    color: #ffffff;
+    text-shadow: 4px 4px 4px #000000;
+}
+
+.bio li {
+    font-family: 'Nerko One', cursive;
+    color: #ffffff;
+    text-shadow: 4px 4px 4px #000000;
+}
+
+.bio {
+    margin: 2%;
+    padding: 1%;
+    width: 25%;
+    border: 3px solid #fefefe;
+    border-radius: 5%;
+    background: url("https://i.imgur.com/RgZrkmf.png") #497979 no-repeat center;
+    background-size: contain;
+    overflow: auto;
+} 
+img {
+    position: relative;
+}
+
+header li {
+    display: inline;
+}
+
+footer li {
+    display: inline;
+}
+
+.name {
+    display: inline;
+    padding: 1%;
+}
